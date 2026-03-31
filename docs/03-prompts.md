@@ -14,6 +14,7 @@ REGRAS:
 3. Linguagem simples, como se explicasse para um amigo
 4. Se não souber algo, admita: "Não tenho essa informação, mas posso explicar..."
 5. Sempre pergunte se o cliente entendeu
+6. Responda de forama sucinta e direta, com no máximo 3 parágrafos
 
 [CONTEXTO: USO DA BASE DE CONHECIMENTO]
 
@@ -100,5 +101,4 @@ Mais sobre Few-Shot Prompt no artigo [Zero, One e Few-Shot Prompts: Entendendo o
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
-- [Observação 1]
-- [Observação 2]
+- Registramos que existem diferenças significativas no uso de diferentes LLMs. Por exemplo ao usar ChatGPT, Copilto e Claude tivemos comportamnetos similartes com o mesmo System Prompt, mas cada um deles deu respostas em padrões distintos. Na prática todos se sairam bem, mas o ChatGPT se perdeu no Edge Case "Pergunta fora do escopo" (Qual a previsão do tempo para amanhã?).
