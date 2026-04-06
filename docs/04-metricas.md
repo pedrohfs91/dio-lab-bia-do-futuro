@@ -29,31 +29,32 @@ Crie testes simples para validar seu agente:
 ### Teste 1: Consulta de gastos
 - **Pergunta:** "Quanto gastei com alimentação?"
 - **Resposta esperada:** Valor baseado no `transacoes.csv`
-- **Resultado:** [X] Correto  [ ] Incorreto
+- **Resposta obtida:** Não somou todos os gastos com alimentação, informou apenas um.
+- **Resultado:** [ ] Correto  [X] Incorreto
 
 ### Teste 2: Recomendação de produto
 - **Pergunta:** "Qual investimento você recomenda para mim?"
 - **Resposta esperada:** Produto compatível com o perfil do cliente
+- **Resposta obtida:** Responde perfeitamente, baseando-se no perfil do cliente
 - **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
 - **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [X] Correto  [ ] Incorreto
+- **Resposta obtida:** Acerta em partes, ele não falou de assuntos fora do escopo, mas na mesma resposta trouxe informações equivocadas. 
+- **Resultado:** [ ] Correto  [X] Incorreto
 
 ### Teste 4: Informação inexistente
-- **Pergunta:** "Quanto rende o produto XYZ?"
+- **Pergunta:** "Quanto rende o BBDC3 na Bovespa?"
 - **Resposta esperada:** Agente admite não ter essa informação
-- **Resultado:** [X] Correto  [ ] Incorreto
+- **Resposta obtida:** Ele diz que não é um especialista no assunto e não pode informar a rentabilidade, mas tenta explicar o que é o BBDC3 e passa informações equivocadas.
+- **Resultado:** [ ] Correto  [X] Incorreto
 
 ---
 
 ## Resultados
 
-Após os testes, registre suas conclusões:
-
-**O que funcionou bem:**
-- [Liste aqui]
+Baseando-se nas perguntas e respostas pode-se concluir que o chat-bot consegue até dar algumas respostas corretas, mas quando ele aprofunda um pouco mais na resposta acaba se perdendo, resultando em informações equivocadas. Quando precisava buscar informações que ja tinha, como por exemplo a do arquivo transacoes.csv, ele tambem errava, ignorando algumas informações contidas no arquivo.
 
 **O que pode melhorar:**
-- [Liste aqui]
+- O modelo de linguagem artificial usado para o chat bot foi o mistral, por ser mais leve, para qua minha máquina suporte. Por isso muitas vezes o chat-bot quando exigido da informações equivocadas. Se utilizarmos o gpt-oss, que possui mais parâmetros, mais eficiência, as respostas seraim muito mais precisas, mas no momento atual minha máquina não tem capacidade para trabalhar com ele.
