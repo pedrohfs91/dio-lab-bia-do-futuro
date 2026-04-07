@@ -30,7 +30,7 @@ Pessoas iniciantes em finanças pessoais que querem aprender a organizar suas fi
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-Edu (Educador Financeiro)
+Pedro (Educador Financeiro)
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
