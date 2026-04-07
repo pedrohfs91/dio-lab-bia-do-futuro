@@ -1,39 +1,22 @@
 # Pitch (3 minutos)
-
-> [!TIP]
-> Você pode usar alguns slides pra apoiar no seu Pitch e mostrar sua solução na prática.
  
-## Roteiro Sugerido
+## Roteiro do Pedro
 
 ### 1. O Problema (30 seg)
-> Qual dor do cliente você resolve?
-
-[Sua descrição aqui]
+> "A maioria dos brasilerios não tem conhecimento financeiros, consequentemente não sabem como investir."
 
 ### 2. A Solução (1 min)
-> Como seu agente resolve esse problema?
-
-[Sua descrição aqui]
+> "O Pedro é um educador financeiro que com base nas suas informações te ensina de maneira simples e gentil sobre investimentos adequados ao seu perfil"
 
 ### 3. Demonstração (1 min)
-> Mostre o agente funcionando (pode ser gravação de tela)
+> "Me explique o que é CDI"
 
-[Descreva o que será mostrado]
+> "Quais são meus maiores gastos?"
+
+> "O que é renda fixa?"
 
 ### 4. Diferencial e Impacto (30 seg)
-> Por que essa solução é inovadora e qual é o impacto dela na sociedade?
-
-[Sua descrição aqui]
-
----
-
-## Checklist do Pitch
-
-- [ ] Duração máxima de 3 minutos
-- [ ] Problema claramente definido
-- [ ] Solução demonstrada na prática
-- [ ] Diferencial explicado
-- [ ] Áudio e vídeo com boa qualidade
+> "Ele usa seus dados como exemplo, roda 100% local, sem custos."
 
 ---
 
