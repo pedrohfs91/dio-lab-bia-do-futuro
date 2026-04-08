@@ -9,7 +9,7 @@
 > "O Pedro é um educador financeiro que com base nas suas informações te ensina de maneira simples e gentil sobre investimentos adequados ao seu perfil"
 
 ### 3. Demonstração (1 min)
-> "Me explique o que é CDI"
+> "Me explique o que é Tesouro Selic"
 
 > "Quais são meus maiores gastos?"
 
