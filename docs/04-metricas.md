@@ -29,8 +29,8 @@ Crie testes simples para validar seu agente:
 ### Teste 1: Consulta de gastos
 - **Pergunta:** "Quanto gastei com alimentação?"
 - **Resposta esperada:** Valor baseado no `transacoes.csv`
-- **Resposta obtida:** Não somou todos os gastos com alimentação, informou apenas um.
-- **Resultado:** [ ] Correto  [X] Incorreto
+- **Resposta obtida:** Respondeu e detalhou os gastos perfeitamente.
+- **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 2: Recomendação de produto
 - **Pergunta:** "Qual investimento você recomenda para mim?"
