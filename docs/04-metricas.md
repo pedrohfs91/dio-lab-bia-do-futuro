@@ -41,8 +41,8 @@ Crie testes simples para validar seu agente:
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
 - **Resposta esperada:** Agente informa que só trata de finanças
-- **Resposta obtida:** Acerta em partes, ele não falou de assuntos fora do escopo, mas na mesma resposta trouxe informações equivocadas. 
-- **Resultado:** [ ] Correto  [X] Incorreto
+- **Resposta obtida:** Ignora a pergunta fora do escopo e começa falar sobre finanças. 
+- **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
 - **Pergunta:** "Quanto rende o BBDC3 na Bovespa?"
@@ -54,7 +54,7 @@ Crie testes simples para validar seu agente:
 
 ## Resultados
 
-Baseando-se nas perguntas e respostas pode-se concluir que o chat-bot consegue até dar algumas respostas corretas, mas quando ele aprofunda um pouco mais na resposta acaba se perdendo, resultando em informações equivocadas. Quando precisava buscar informações que ja tinha, como por exemplo a do arquivo transacoes.csv, ele tambem errava, ignorando algumas informações contidas no arquivo.
+No geral o modelo se saiu bem, respondendo todas as perguntas de maneira esperada. Teve um deslize no teste 4, ele acerta num primeiro momento, respondendo que não é um especialista desse assunto por isso não pode informar a rentabilidade do BBDC3, mas depois tenta explicar o que é o BBDC3 e passa informações equivocadas.
 
 **O que pode melhorar:**
-- O modelo de linguagem artificial usado para o chat bot foi o mistral, por ser mais leve, para qua minha máquina suporte. Por isso muitas vezes o chat-bot quando exigido da informações equivocadas. Se utilizarmos o gpt-oss, que possui mais parâmetros, mais eficiência, as respostas seriam muito mais precisas, mas no momento atual minha máquina infelizmente não tem capacidade para trabalhar com ele.
+- O modelo de linguagem artificial usado para o chat bot foi o mistral, por ser mais leve, para qua minha máquina suporte. Por isso muitas vezes o chat-bot quando mais exigido passa informações equivocadas. Se utilizarmos o gpt-oss que é um modelo mais robusto, que possui mais parâmetros, mais eficiência, as respostas seriam muito mais precisas, mas no momento atual minha máquina infelizmente não tem capacidade para trabalhar com ele.
