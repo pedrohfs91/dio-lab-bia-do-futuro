@@ -11,17 +11,17 @@
 ### 3. Demonstração (1 min)
 > "Me explique o que é Tesouro Selic"
 
+<img width="1926" height="964" alt="Tesouro selic" src="https://github.com/user-attachments/assets/909d5d13-59d5-4e5a-85f9-d35bcca6cb61" />
+
 > "Quais são meus maiores gastos?"
+
+<img width="1916" height="955" alt="maiores gastos" src="https://github.com/user-attachments/assets/39467080-4d52-4657-9dd3-dbfa028ce735" />
 
 > "O que é renda fixa?"
 
-### 4. Diferencial e Impacto (30 seg)
-> "Ele usa seus dados como exemplo, roda 100% local, sem custos."
+<img width="1915" height="954" alt="renda fixa" src="https://github.com/user-attachments/assets/47991603-b63f-4340-824e-8beafbdf4496" />
 
 ---
-
 ## Link do Vídeo
 
-> Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
-
-[Link do vídeo]
+> [[Link do vídeo](https://youtu.be/FTw8OK4wlSo)]
